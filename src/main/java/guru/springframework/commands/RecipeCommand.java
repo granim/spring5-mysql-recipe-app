@@ -22,6 +22,9 @@ import java.util.Set;
 public class RecipeCommand {
     private Long id;
 
+    //test circleCI
+
+
     @NotBlank
     @Size(min = 3, max = 255)
     private String description;
